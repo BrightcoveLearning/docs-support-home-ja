@@ -1,144 +1,158 @@
-﻿<!doctype html>
-<html lang="ja">
+<!doctype html>
+<html lang="en-us">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   
-  <title>Brightcove のアイコン</title>
+  <title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">  
-  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&amp;display=swap">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
-  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
+  <!-- <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css"> -->
   <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
   <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
+  <link rel="stylesheet" href="/site-assets/css/site/styles.css">
   <link rel="stylesheet" href="/assets/css/local.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/381443caa8.js" crossorigin="anonymous"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/google-analytics.js"></script>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2728311-17"></script>
+<script translate="no">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2728311-17');
+</script>
   <script src="/assets/js/sajari-head.js"></script>
+	<script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body class="body">
-
-<header>
+ <header>
   <div class="div-header">
 
-      <img class="product-logo" src="/site-assets/images/site/product-logos/brightcove-black-on-white.svg" style="max-height: 100px;max-width: 232px;margin-bottom: 1rem;"/>
-<!-- GTranslate: https://gtranslate.io/ -->
-<select onchange="doGTranslate(this);"><option value="">言語の選択</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
+      <img class="product-logo" src="https://support.brightcove.com/site-assets/images/site/product-logos/brightcove-black-on-white.svg" alt="Brightcove">
+      <select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
 
-<script>
-/* <![CDATA[ */
-function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
-/* ]]> */
-</script>
+      <script translate="no">
+      /* <![CDATA[ */
+      function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+      /* ]]> */
+      </script>
+      
 
-
-
-    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><img src="https://support.brightcove.com/site-assets/images/site/support.png" alt="サポート"/> サポートへのお問い合わせ</a> <span style="vertical-align: top;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/"><img src="https://support.brightcove.com/site-assets/images/site/status.png" alt="システムステータス"/> システムステータス</a></span> <br/>
+    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><i data-feather="help-circle"></i> サポートに連絡する</a><span style="vertical-align: middle;margin-left:1em;margin-right:1em;">| </span><a href="https://status.brightcove.com/"><i data-feather="cloud"></i> システムステータス</a></span>
+    <br>
 
   </div>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb arr-right">
-      
-      <li class="breadcrumb-item"><a href="/">ホーム</a></li>
-      
-      
-      
-      <li class="breadcrumb-item active" aria-current="page">Brightcove のアイコン</li>
-    </ol>
+    
+    <li class="breadcrumb-item first-item"><a href="/">ホーム</a></li>
+     
+        <li class="breadcrumb-item active" aria-current="page"></li>
+       
   </nav>
-</header>
-<div class="container">
+</header> <div class="container">
     <div class="row">
-            <div class="col-sm-3 left-side-bar">
-        <select id="site_select" class="bcls-select" style="margin-right: 1rem;">
-          <option value="">Brightcove のその他のドキュメント</option>
-          
-            
-              <option value="https://support.brightcove.com">ドキュメントホーム</option>
-            
-          
-            
-              <option value="https://audience.support.brightcove.com">Brightcove Audience</option>
-            
-          
-            
-              <option value="https://beacon.support.brightcove.com">Brightcove ビーコン</option>
-            
-          
-            
-              <option value="https://campaign.support.brightcove.com">Brightcove キャンペーン</option>
-            
-          
-            
-              <option value="https://engage.support.brightcove.com">Brightcove Engage</option>
-            
-          
-            
-              <option value="https://live.support.brightcove.com">Brightcove ・ライブ</option>
-            
-          
-            
-              <option value="https://gallery.support.brightcove.com">Brightcove ギャラリー</option>
-            
-          
-            
-              <option value="https://ssai.support.brightcove.com">Brightcove SSAI</option>
-            
-          
-            
-              <option value="https://social.support.brightcove.com">Brightcove ソーシャル</option>
-            
-          
-            
-              <option value="https://studio.support.brightcove.com">Video Cloud Studio</option>
-            
-          
-            
-              <option value="https://player.support.brightcove.com">Brightcove のプレーヤー開発</option>
-            
-          
-            
-              <option value="https://apis.support.brightcove.com">Video CloudプラットフォームAPI</option>
-            
-          
-            
-              <option value="https://sdks.support.brightcove.com">ビデオクラウドデバイス SDK</option>
-            
-          
-            
-              <option value="https://integrations.support.brightcove.com">統合および CMS コネクタ</option>
-            
-          
-            
-              <option value="https://general.support.brightcove.com">ビデオクラウドの一般情報</option>
-            
-          
-            
-              <option value="https://zencoder.support.brightcove.com">Zencoder</option>
-            
-          
-        </select>
-
+      <div class="col-sm-3 left-side-bar">
+				<select id="site_select" class="bcls-select" style="margin-left: 1rem;">
+					<option value="">Brightcoveのその他のドキュメント</option>
+					 
+							<option value="https://support.brightcove.com">ドキュメンテーションホーム</option>
+						  
+							<option value="">-Video Cloud-</option>
+						  
+							<option value="https://studio.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloudスタジオ</option>
+						  
+							<option value="https://player.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveプレイヤー開発</option>
+						  
+							<option value="https://apis.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video CloudプラットフォームAPI</option>
+						  
+							<option value="https://sdks.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video CloudデバイスSDK</option>
+						  
+							<option value="https://integrations.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;統合とCMSコネクタ</option>
+						  
+							<option value="https://general.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloudの一般情報</option>
+						  
+							<option value="">-ビデオエッセンシャル-</option>
+						  
+							<option value="https://beacon.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveビーコン</option>
+						  
+							<option value="https://live.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveライブ</option>
+						  
+							<option value="https://zencoder.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp; Zencoder</option>
+						  
+							<option value="">-Video Cloudアドオン-</option>
+						  
+							<option value="https://campaign.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveキャンペーン</option>
+						  
+							<option value="https://engage.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveエンゲージ</option>
+						  
+							<option value="https://gallery.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveギャラリー</option>
+						  
+							<option value="https://studio.support.brightcove.com/social/index.html">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveソーシャル</option>
+						  
+							<option value="https://ssai.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;BrightcoveSSAI</option>
+						 
+				</select>
         <nav class="sidenav" id="side_nav">
-          
-            
-            <h5><a href="/">ホーム</a></h5>
-            
-          
+           
+            <h5><a href="/index.html">ホーム</a></h5>
+              
+            <h5><a href="https://studio.support.brightcove.com/index.html">Video Cloudスタジオ</a></h5>
+              
+            <h5><a href="https://player.support.brightcove.com/index.html">Brightcove・プレイヤー</a></h5>
+              
+            <h5><a href="https://apis.support.brightcove.com/index.html">Video CloudプラットフォームAPI</a></h5>
+              
+            <h5><a href="https://sdks.support.brightcove.com/index.html">Video CloudデバイスSDK</a></h5>
+              
+              <h5 class="submenu-header"><a href="/training/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;トレーニング</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                 
+                    <li><a href="/training/online-training-courses.html">すべてのオンライントレーニングコース</a></li>
+                    
+                    <li><a href="/training/register-training.html">インストラクター主導トレーニングへの登録</a></li>
+                    
+                    <li><a href="/training/training-demand-introduction-video-cloud.html">トレーニング:Video Cloudの概要</a></li>
+                    
+                    <li><a href="/training/training-demand-introduction-video-cloud-analytics.html">トレーニング:Video Cloud分析の概要</a></li>
+                    
+                    <li><a href="/training/training-demand-video-cloud-basics.html">トレーニング:Video Cloudの基本</a></li>
+                    
+                    <li><a href="/training/video-cloud-studio-training-videos.html">Video Cloudスタジオトレーニングビデオ</a></li>
+                    
+                    <li><a href="/training/brightcove-university.html">Brightcove Universityトレーニングコース</a></li>
+                   
+              </ul>
+              
+              <h5 class="submenu-header"><a href="/support/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;サポート</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                 
+                    <li><a href="/support/viewing-brightcove-system-status-page.html">Brightcoveのシステムステータスページの表示</a></li>
+                    
+                    <li><a href="/support/contact-sales.html">営業へのお問い合わせ</a></li>
+                    
+                    <li><a href="/support/opening-case-with-brightcove-support.html">サポートケースを開く</a></li>
+                    
+                    <li><a href="/support/reset-support-portal-password.html">サポートポータルのパスワードをリセットする</a></li>
+                   
+              </ul>
+             
       </nav>
     </div>
     <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
   <!-- bootstrap layout -->
-
-<p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="ナビゲーションメニュー"/></p>
+ <p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="Navigation Menu"></p>
 
 <!-- search bar -->
 <div id="nav-search-box" style="margin-top: 2rem;"></div>
@@ -149,25 +163,18 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
   <ul id="centered_in_page_toc" class="list-none"></ul>
 </details>
 <!-- open in new tab/window -->
-<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="新しいタブで開く" style="margin-top:4em;width: 1.5em;"/></a>
-
-
+<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="open in new tab" style="margin-top:4em;width: 1.5em;"></a>  ---
+title:Brightcoveのアイコン
+parent: Home
+layout: home-page —
 <style>
-  td i.fas,
-  td i.fab,
-  td i.far,
-  td i.fal,
-  td img.bcls-icon {
-    font-size: 2rem;
-
-    color: rgb(65, 196, 181);
-  }
+  td i.fas, td i-Fab, td i.far, td i.fal, td img.bcls-icon { font-size: 2rem; color: rgb(1, 5, 14); }
 </style>
 <meta name="robots" content="noindex" />
 <h1>標準アイコン</h1>
 <article class="landing-page-wrapper">
-  <p>style 属性を使用して、アイコンの色とサイズを設定できます。たとえば、次のようになります。</p>
-  <pre class="line-numbers"><code class="language-html" translate="No">&lt;i class="fal fa-tools" style="font-size:2rem;color:#33333;"&gt;&lt;/i&gt;</code></pre>
+  <p>style 属性を使用して、アイコンの色とサイズを設定できます。次に例を示します。</p>
+  <pre class="line-numbers"><code class="language-html" translate="No">&lt;i class=&quot;fal fa-tools&quot; style="font-size:2rem;color:#33333;"&gt;&lt;/i&gt;</code>   </pre>
   <section class="bcls-section">
     <h2 id="Feather_icons">フェザーアイコン</h2>
     <table class="bcls-table">
@@ -181,287 +188,287 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       </thead>
       <tbody class="bcls-table__body">
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/tool.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/tool.svg"&gt;</code></td>
+          <td><i data-feather="tool"></i></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/tool.svg"&gt;</code></td>
           <td>管理</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/dollar-sign.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/dollar-sign.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/dollar-sign.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/dollar-sign.svg"&gt;</code></td>
           <td>広告</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/bar-chart-2.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/bar-chart-2.svg"&gt;</code></td>
-          <td>アナリティクス</td>
+          <td><i data-feather="bar-chart-2"></i></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/bar-chart-2.svg"&gt;</code></td>
+          <td>分析</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/settings.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/settings.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/settings.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/settings.svg"&gt;</code></td>
           <td>API</td>
         </tr>
         <tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/sunrise.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/sunrise.svg"&gt;</code></td>
-          <td>基本事項</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/sunrise.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/sunrise.svg"&gt;</code></td>
+          <td>基本</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/code.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/code.svg"&gt;</code></td>
+          <td><i data-feather="code"></i></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/code.svg"&gt;</code></td>
           <td>コード</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/codepen.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/codepen.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/codepen.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/codepen.svg"&gt;</code></td>
           <td>コードソリューション</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/smartphone.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/smartphone.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/smartphone.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/smartphone.svg"&gt;</code></td>
           <td>モバイルアプリの作成</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/layout.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/layout.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/layout.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/layout.svg"&gt;</code></td>
           <td>Web アプリを作成する</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/edit.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/edit.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/edit.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/edit.svg"&gt;</code></td>
           <td>アプリデザインの作成</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/zap.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/zap.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/zap.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/zap.svg"&gt;</code></td>
           <td>エクスペリエンスの作成</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/user-plus.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/user-plus.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/user-plus.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/user-plus.svg"&gt;</code></td>
           <td>ユーザーの作成</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/monitor.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/monitor.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/monitor.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/monitor.svg"&gt;</code></td>
           <td>アプリを作成する</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/arrow-up-right.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/arrow-up-right.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/arrow-up-right.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/arrow-up-right.svg"&gt;</code></td>
           <td>アプリケーションの作成</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/layout.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/layout.svg"&gt;</code></td>
-          <td>プレイリストの作成</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/layout.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/layout.svg"&gt;</code></td>
+          <td>プレイリストを作成</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/list.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/list.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/list.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/list.svg"&gt;</code></td>
           <td>ダッシュボード</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/filter.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/filter.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/filter.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/filter.svg"&gt;</code></td>
           <td>データ収集</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/coffee.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/coffee.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/coffee.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/coffee.svg"&gt;</code></td>
           <td>設計上の考慮事項</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/git-merge.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/git-merge.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/git-merge.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/git-merge.svg"&gt;</code></td>
           <td>デリバリーシステム</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/terminal.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/terminal.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/terminal.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/terminal.svg"&gt;</code></td>
           <td>開発者</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/file-text.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/file-text.svg"&gt;</code></td>
-          <td>ドキュメント</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/file-text.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/file-text.svg"&gt;</code></td>
+          <td>ドキュメンテーション</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/fast-forward.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/fast-forward.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/fast-forward.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/fast-forward.svg"&gt;</code></td>
           <td>エンコーディングガイド</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/settings.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/settings.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/settings.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/settings.svg"&gt;</code></td>
           <td>エンコーディング設定</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/alert-circle.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/alert-circle.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/alert-circle.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/alert-circle.svg"&gt;</code></td>
           <td>エラー/トラブルシューティング</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/external-link.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/external-link.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/external-link.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/external-link.svg"&gt;</code></td>
           <td>外部リンク</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/info.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/info.svg"&gt;</code></td>
+          <td><i data-feather="info"></i></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/info.svg"&gt;</code></td>
           <td>一般情報</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/play.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/play.svg"&gt;</code></td>
-          <td>新しいVideo Cloud Studioの基礎</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/play.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/play.svg"&gt;</code></td>
+          <td>はじめに</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/arrow-right.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/arrow-right.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/arrow-right.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/arrow-right.svg"&gt;</code></td>
           <td>ガイド</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/map.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/map.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/map.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/map.svg"&gt;</code></td>
           <td>実装フェーズ</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/copy.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/copy.svg"&gt;</code></td>
-          <td>トランスコードプロファイル</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/copy.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/copy.svg"&gt;</code></td>
+          <td>プロファイルの取り込み</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/log-in.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/log-in.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/log-in.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/log-in.svg"&gt;</code></td>
           <td>Chrome プラグインをインストールする</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/smartphone.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/smartphone.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/smartphone.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/smartphone.svg"&gt;</code></td>
           <td>デバイスにインストールする</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/share-2.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/share-2.svg"&gt;</code></td>
-          <td>統合</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/share-2.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/share-2.svg"&gt;</code></td>
+          <td>インテグレーション</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/book-open.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/book-open.svg"&gt;</code></td>
-          <td>学習ガイド</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/book-open.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/book-open.svg"&gt;</code></td>
+          <td>ラーニングガイド</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/airplay.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/airplay.svg"&gt;</code></td>
-          <td>ライブ動画</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/airplay.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/airplay.svg"&gt;</code></td>
+          <td>ライブビデオ</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/film.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/film.svg"&gt;</code></td>
-          <td>ビデオを管理する</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/film.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/film.svg"&gt;</code></td>
+          <td>動画を管理する</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/compass.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/compass.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/compass.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/compass.svg"&gt;</code></td>
           <td>UI をナビゲートする</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/play-circle.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/play-circle.svg"&gt;</code></td>
-          <td>再生</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/play-circle.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/play-circle.svg"&gt;</code></td>
+          <td>プレイバック</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/play-circle.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/play-circle.svg"&gt;</code></td>
-          <td>再生API</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/play-circle.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/play-circle.svg"&gt;</code></td>
+          <td>プレイバックAPI</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/airplay.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/airplay.svg"&gt;</code></td>
-          <td>プレーヤー管理API</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/airplay.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/airplay.svg"&gt;</code></td>
+          <td>プレイヤー管理 API</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/log-in.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/log-in.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/log-in.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/log-in.svg"&gt;</code></td>
           <td>プラグイン</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/key.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/key.svg"&gt;</code></td>
-          <td>ポリシーAPI</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/key.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/key.svg"&gt;</code></td>
+          <td>ポリシー API</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/image.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/image.svg"&gt;</code></td>
-          <td>公開</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/image.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/image.svg"&gt;</code></td>
+          <td>パブリッシュ</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/codesandbox.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/codesandbox.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/codesandbox.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/codesandbox.svg"&gt;</code></td>
           <td>参考文献</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/bell.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/bell.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/bell.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/bell.svg"&gt;</code></td>
           <td>リリースノート</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/search.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/search.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/search.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/search.svg"&gt;</code></td>
           <td>検索</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/lock.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/lock.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/lock.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/lock.svg"&gt;</code></td>
           <td>セキュリティ、OAuth、DRM</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/zap.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/zap.svg"&gt;</code></td>
-          <td>スタイル設定</td>
+          <td><img class="bcls-icon" src="/assets/images/feather/zap.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/zap.svg"&gt;</code></td>
+          <td>スタイリング</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/help-circle.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/help-circle.svg"&gt;</code></td>
+          <td><i data-feather="help-circle"></i></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/help-circle.svg"&gt;</code></td>
           <td>サポート</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/repeat.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/repeat.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/repeat.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/repeat.svg"&gt;</code></td>
           <td>同期中</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/layout.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/layout.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/layout.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/layout.svg"&gt;</code></td>
           <td>シンジケーション</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/external-link.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/external-link.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/external-link.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/external-link.svg"&gt;</code></td>
           <td>トレーニング</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/alert-circle.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/alert-circle.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/alert-circle.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/alert-circle.svg"&gt;</code></td>
           <td>トラブルシューティング</td>
         </tr>
         <tr>
-          <td><img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/upload-cloud.svg"/></td>
-          <td><code translate="No">&lt;img class="bcls-icon" src="https://support.brightcove.com/site-assets/images/site/feather/upload-cloud.svg"&gt;</code></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/upload-cloud.svg"></td>
+          <td><code translate="No">&lt;img class="bcls-icon" src="/assets/images/feather/upload-cloud.svg"&gt;</code></td>
           <td>アップロード</td>
         </tr>
         <tr>
-          <td><img src="https://support.brightcove.com/site-assets/images/site/product-logos/beacon-nut.svg"/></td>
-          <td><code translate="No">&lt;img src="https://support.brightcove.com/site-assets/images/site/product-logos/beacon-nut.svg"&gt;</code></td>
-          <td>{product} を使用する（アイコンを作成する必要があります）</td>
+          <td><img src="/assets/images/product-logos/beacon-nut.svg"></td>
+          <td><code translate="No">&lt;img src="/assets/images/product-logos/beacon-nut.svg"&gt;</code></td>
+          <td>使用{product} (アイコンを作成する必要がある)</td>
         </tr>
       </tbody>
     </table>
   </section><section class="bcls-section">
-    <h2 id="Fontawesome_icons">フォンタウェソームアイコン</h2>
+    <h2 id="Fontawesome_icons">フォント恐ろしいアイコン</h2>
     <table class="bcls-table">
-      <caption class="bcls-caption--table">フォンタウェソームアイコン</caption>
+      <caption class="bcls-caption--table">フォント恐ろしいアイコン</caption>
       <thead class="bcls-table__head">
         <tr>
           <th>アイコン</th>
@@ -471,12 +478,12 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       </thead>
       <tbody class="bcls-table__body">
         <tr>
-          <td><i class="fal fa-tools"></i></td>
+          <td><i data-feather="tool"></i></td>
           <td><code translate="No">&lt;i class="&gt;fal fa-tools"&gt;&lt;/i&gt;</code></td>
           <td>管理</td>
         </tr>
         <tr>
-          <td><i class="far fa-ad"></i></td>
+          <td><i data-feather="dollar-sign"></i></td>
           <td><code translate="No">&lt;i class="&gt;far fa-ad"&gt;&lt;/i&gt;</code></td>
           <td>広告</td>
         </tr>
@@ -492,9 +499,9 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
         </tr>
         <tr>
         <tr>
-          <td><i class="far fa-shapes"></i> /td &gt;
+          <td><i data-feather="sunrise"></i> /td &gt;
           <td><code translate="No">&lt;i class="far fa-shapes"&gt;&lt;/i&gt;</code></td>
-          <td>基本事項</td>
+          <td>基本</td>
         </tr>
         <tr>
           <td><i class="far fa-brackets-curly"></i></td>
@@ -512,12 +519,12 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>モバイルアプリの作成</td>
         </tr>
         <tr>
-          <td><i class="far fa-browser"></i></td>
+          <td><i data-feather="image"></i></td>
           <td><code translate="No">&lt;i class="far fa-browser"&gt;&lt;/i&gt;</code></td>
           <td>Web アプリを作成する</td>
         </tr>
         <tr>
-          <td><i class="far fa-edit"></i></td>
+          <td>&lt;<i data-feather="edit"></i></td>
           <td><code translate="No">&lt;i class="far fa-edit"&gt;&lt;/i&gt;</code></td>
           <td>アプリデザインの作成</td>
         </tr>
@@ -537,14 +544,14 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>アプリを作成する</td>
         </tr>
         <tr>
-          <td><i class="fal fa-rocket-launch"></i></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/send.svg"></td>
           <td><code translate="No">&lt;i class="fal fa-rocket-launch"&gt;&lt;/i&gt;</code></td>
           <td>アプリケーションの作成</td>
         </tr>
         <tr>
           <td><i class="fas fa-th-list"></i></td>
           <td><code translate="No">&lt;i class="fas fa-th-list"&gt;&lt;/i&gt;</code></td>
-          <td>プレイリストの作成</td>
+          <td>プレイリストを作成</td>
         </tr>
         <tr>
           <td><i class="far fa-tachometer-fast"></i></td>
@@ -557,7 +564,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>データ収集</td>
         </tr>
         <tr>
-          <td><i class="far fa-pencil-ruler"></i></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/pen-tool.svg"></td>
           <td><code translate="No">&lt;i class="far fa-pencil-ruler"&gt;&lt;/i&gt;</code></td>
           <td>設計上の考慮事項</td>
         </tr>
@@ -574,7 +581,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
         <tr>
           <td><i class="fal fa-file-alt"></i></td>
           <td><code translate="No">&lt;i class="fal fa-file-alt"&gt;&lt;/i&gt;</code></td>
-          <td>ドキュメント</td>
+          <td>ドキュメンテーション</td>
         </tr>
         <tr>
           <td><i class="fas fa-fast-forward"></i></td>
@@ -597,14 +604,14 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>外部リンク</td>
         </tr>
         <tr>
-          <td><i class="far fa-info-circle"></i></td>
+          <td><i data-feather="info"></i></td>
           <td><code translate="No">&lt;i class="far fa-info-circle"&gt;&lt;/i&gt;</code></td>
           <td>一般情報</td>
         </tr>
         <tr>
-          <td><i class="far fa-location-arrow"></i></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/play.svg"></td>
           <td><code translate="No">&lt;i class="far fa-location-arrow"&gt;&lt;/i&gt;</code></td>
-          <td>新しいVideo Cloud Studioの基礎</td>
+          <td>はじめに</td>
         </tr>
         <tr>
           <td><i class="fal fa-map-signs"></i></td>
@@ -612,17 +619,17 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>ガイド</td>
         </tr>
         <tr>
-          <td><i class="fal fa-project-diagram"></i></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/share-2.svg"></td>
           <td><code translate="No">&lt;i class="fal fa-project-diagram"&gt;&lt;/i&gt;</code></td>
           <td>実装フェーズ</td>
         </tr>
         <tr>
           <td><i class="fab fa-ioxhost"></i></td>
           <td><code translate="No">&lt;i class="fab fa-ioxhost"&gt;&lt;/i&gt;</code></td>
-          <td>トランスコードプロファイル</td>
+          <td>プロファイルの取り込み</td>
         </tr>
         <tr>
-          <td><i class="far fa-plug"></i></td>
+          <td><i data-feather="log-in"></i></td>
           <td><code translate="No">&lt;i class="far fa-plug"&gt;&lt;/i&gt;</code></td>
           <td>Chrome プラグインをインストールする</td>
         </tr>
@@ -634,20 +641,20 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
         <tr>
           <td><i class="far fa-handshake-alt"></i></td>
           <td><code translate="No">&lt;i class="far fa-handshake-alt"&gt;&lt;/i&gt;</code></td>
-          <td>統合</td>
+          <td>インテグレーション</td>
         </tr>
         <tr>
-          <td><i class="far fa-book-reader"></i></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/book-open.svg"></td>
           <td><code translate="No">&lt;i class="far fa-book-reader"&gt;&lt;/i&gt;</code></td>
-          <td>学習ガイド</td>
+          <td>ラーニングガイド</td>
         </tr>
         <tr>
           <td><i class="fas fa-satellite-dish"></i></td>
           <td><code translate="No">&lt;i class="fas fa-satellite-dish"&gt;&lt;/i&gt;</code></td>
-          <td>ライブ動画</td>
+          <td>ライブビデオ</td>
         </tr>
         <tr>
-          <td><i class="fas fa-film"></i></td>
+          <td><img class="bcls-icon" src="/assets/images/feather/film.svg"></td>
           <td><code translate="No">&lt;i class="fas fa-film"&gt;&lt;/i&gt;</code></td>
           <td>ビデオを管理する</td>
         </tr>
@@ -657,34 +664,34 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>UI をナビゲートする</td>
         </tr>
         <tr>
-          <td><i class="fal fa-play-circle"></i></td>
+          <td><i data-feather="play-circle"></i></td>
           <td><code translate="No">&lt;i class="fal fa-play-circle"&gt;&lt;/i&gt;</code></td>
-          <td>再生</td>
+          <td>プレイバック</td>
         </tr>
         <tr>
           <td><i class="fal fa-bring-front"></i></td>
           <td><code translate="No">&lt;i class="fal fa-bring-front"&gt;&lt;/i&gt;</code></td>
-          <td>再生API</td>
+          <td>プレイバックAPI</td>
         </tr>
         <tr>
           <td><i class="fal fa-photo-video"></i></td>
           <td><code translate="No">&lt;i class="fal fa-photo-video"&gt;&lt;/i&gt;</code></td>
-          <td>プレーヤー管理API</td>
+          <td>プレイヤー管理 API</td>
         </tr>
         <tr>
-          <td><i class="far fa-plug"></i></td>
+          <td><i data-feather="log-in"></i></td>
           <td><code translate="No">&lt;i class="far fa-plug"&gt;&lt;/i&gt;</code></td>
           <td>プラグイン</td>
         </tr>
         <tr>
           <td><i class="fal fa-key"></i></td>
           <td><code translate="No">&lt;i class="fal fa-key"&gt;&lt;/i&gt;</code></td>
-          <td>ポリシーAPI</td>
+          <td>ポリシー API</td>
         </tr>
         <tr>
-          <td><i class="far fa-browser"></i></td>
+          <td><i data-feather="image"></i></td>
           <td><code translate="No">&lt;i class="far fa-browser"&gt;&lt;/i&gt;</code></td>
-          <td>公開</td>
+          <td>パブリッシュ</td>
         </tr>
         <tr>
           <td><i class="fal fa-books"></i></td>
@@ -692,7 +699,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>参考文献</td>
         </tr>
         <tr>
-          <td><i class="far fa-bell"></i></td>
+          <td><i data-feather="bell"></i></td>
           <td><code translate="No">&lt;i class="far fa-bell"&gt;&lt;/i&gt;</code></td>
           <td>リリースノート</td>
         </tr>
@@ -707,12 +714,12 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>セキュリティ、OAuth、DRM</td>
         </tr>
         <tr>
-          <td><i class="far fa-hat-wizard"></i></td>
+          <td><i data-feather="zap"></i></td>
           <td><code translate="No">&lt;i class="far fa-hat-wizard"&gt;&lt;/i&gt;</code></td>
-          <td>スタイル設定</td>
+          <td>スタイリング</td>
         </tr>
         <tr>
-          <td><i class="far fa-question-circle"></i></td>
+          <td><i data-feather="help-circle"></i></td>
           <td><code translate="No">&lt;i class="far fa-question-circle"&gt;&lt;/i&gt;</code></td>
           <td>サポート</td>
         </tr>
@@ -727,12 +734,12 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>シンジケーション</td>
         </tr>
         <tr>
-          <td><i class="far fa-chalkboard-teacher"></i></td>
+          <td><i data-feather="award"></i></td>
           <td><code translate="No">&lt;i class="far fa-chalkboard-teacher"&gt;&lt;/i&gt;</code></td>
           <td>トレーニング</td>
         </tr>
         <tr>
-          <td><i class="far fa-exclamation-triangle"></i></td>
+          <td><i data-feather="alert-triangle"></i></td>
           <td><code translate="No">&lt;i class="far fa-exclamation-triangle"&gt;&lt;/i&gt;</code></td>
           <td>トラブルシューティング</td>
         </tr>
@@ -742,20 +749,19 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <td>アップロード</td>
         </tr>
         <tr>
-          <td><img src="https://support.brightcove.com/site-assets/images/site/product-logos/beacon-nut.svg"/></td>
-          <td><code translate="No">&lt;img src="https://support.brightcove.com/site-assets/images/site/product-logos/beacon-nut.svg"&gt;</code></td>
-          <td>{product} を使用する（アイコンを作成する必要があります）</td>
+          <td><img src="/assets/images/product-logos/beacon-nut.svg"></td>
+          <td><code translate="No">&lt;img src="/assets/images/product-logos/beacon-nut.svg"&gt;</code></td>
+          <td>使用{product} (アイコンを作成する必要がある)</td>
         </tr>
       </tbody>
     </table>
   </section>
 </article>
-
-<!-- complete bootstrap layout -->
+ <!-- complete bootstrap layout -->
     </div>
     <div class="col-sm-2 right-side-bar">
       <nav class="right-side-nav" id="announcements">
-        <h6 class="toc">お知らせ</h6>
+        <h6 class="toc">アナウンス</h6>
         <ul id="announcement_list" class="list-none">
           
           <li></li>
@@ -767,11 +773,18 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 </div>
 
 <hr>
-<footer class="bcls-footer" role="contentinfo">  <div class="row">
+<div class="last-updated">
+  ページの最終更新日23 Mar 2021
+</div>
+
+
+ <footer class="bcls-footer" role="contentinfo">
+  <div class="row">
     <div class="region region-footer-top-center col-md-12">
       <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
+        <img src="https://support.brightcove.com/site-assets/images/site/SVG/COVE004_Brightcove_Logo_093020_RGB_KO.svg" class="bc-footer-logo" alt="Brightcove">
 
-        <h2>Brightcove サポート</h2>
+        <h2>Brightcoveのサポート</h2>
 
         <ul class="menu">
           <li>
@@ -798,7 +811,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
             <a href="https://studio.support.brightcove.com/training/register-training.html">コースに登録する</a>
           </li>
           <li>
-            <a href="https://university.brightcove.com/">Brightcove University</a>
+            <a href="https://university.brightcove.com/">Brightcove大学</a>
           </li>
         </ul>
 
@@ -824,12 +837,12 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
         <table>
           <tr>
             <td>
-              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove Inc. All rights reserved.</div>
+              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove株式会社すべての権利を保有しています。</div>
             </td>
             <td><a href="https://www.brightcove.com/en/legal/privacy">プライバシー</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">利用規約</a></td>
             <td>
               <div class="gf-links-cols footer-menu">
-                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.5rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i></a>
+                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin" style="margin-right: 1rem;"><i data-feather="linkedin" style="color:#8E9093;height: 1.25rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter" style="margin-right: 1rem;"><i data-feather="twitter" style="color:#8E9093;height: 1.25rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i data-feather="facebook" style="color:#8E9093;height: 1.25rem;"></i></a>
                 </div>
               </div>
             </td>
@@ -839,30 +852,13 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     </div>
   </div>
 </footer>
-<div id="talla_wrapper">
-  <p style="text-align: right;position: relative;"><button style="background:rgb(7, 9, 140);color:Snow;padding:.3rem;position:fixed;right:0;bottom:1em;z-index:9999999" onclick="javascript:displayChat()">質問ですか? </button> </p>
-  <div id="talla_chat">
-</div>
-</div>
+
 <script>
       
-  var searchBox = sajari.init({
-    mode: "search-box",
-    project: "1588255093746585379", // Set this to your project.
-    collection: "brightcove-documenation", // Set this to your collection.
-    instantPipeline: "autocomplete", // Pipeline used as you type
-    inputPlaceholder: "Search", // Input element placeholder
-    maxSuggestions: 5, // Maximum number of suggestions to show
-    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
-  });
-  
-    searchBox("sub", "pipeline.search-sent", function (_, query) {
-      window.location = "/search.html?q=" + encodeURIComponent(query.q);
-    });
+  var searchBox = sajari.init ( { mode: "search-box", project: "1588255093746585379", // Set this to your project. collection: "brightcove-documenation", // Set this to your collection. instantPipeline: "autocomplete", // Pipeline used as you type inputPlaceholder: "Search", // Input element placeholder maxSuggestions: 5, // Maximum number of suggestions to show attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to } ); SearchBox (「サブ」,「pipeline.search-sent」, 関数 (_, クエリ) { window.location = "/search.html?q=" + encodeURIComponent(query.q); } );
   
 
-</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+</script>   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
@@ -871,17 +867,22 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
   <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
   
   <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
   <script src="/assets/js/sites_nav.js"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/sajari-reindex.js"></script>
   <script src="/assets/js/feedback.js"></script>
   
   <script src="/assets/js/sajari-search-foot.js"></script>
   
+	<script translate="no">
+		feather.replace()
+	</script>
   <!-- <script src="/assets/js/sajari-index.js"></script> -->
-  <style>
+  <style translate="no">
     a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
       background-color: lightblue;
     }
@@ -910,4 +911,4 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 </body>
 
-</html>
+</html> 

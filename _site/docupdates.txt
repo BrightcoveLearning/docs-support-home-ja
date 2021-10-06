@@ -1,0 +1,132 @@
+New docs:
+
+Title: Overview: Forensic Watermarking
+Description: Brightcove has partnered with NAGRA to provide forensic watermarking as a feature in the Video Cloud platform. This will help protect your premium content from piracy and unauthorized content sharing. This feature also helps to quickly identify the source of a content leak, so that action can be taken.
+Link: https://apis.support.brightcove.com/general/overview-forensic-watermarking.html
+Category: Forensic Watermarking, Video Cloud, Zencoder
+Status: Released
+Type: New Doc
+
+Title: FAQ: Forensic Watermarking
+Description: In this topic, you can view the answers to a number of frequently asked questions related to Brightcove Forensic Watermarking.
+Link: https://apis.support.brightcove.com/general/faq-forensic-watermarking.html
+Category: Forensic Watermarking, Video Cloud, Zencoder
+Status: Released
+Type: New Doc
+
+Title: Forensic Watermarking with Brightcove Player
+Description: In this topic, you will learn how to use Brightcove Player to deliver videos protected with Forensic Watermarking.
+Link: https://player.support.brightcove.com/playback/forensic-watermarking-with-bcp.html
+Category: Forensic Watermarking, Video Cloud, Brightcove Player
+Status: Released
+Type: New Doc
+
+Title: Forensic Watermarking with the Native SDKs
+Description: In this topic, you will learn how to use the Brightcove Native SDKs to deliver videos protected with Forensic Watermarking.
+Link: https://sdks.support.brightcove.com/features/forensic-watermarking-with-sdks.html
+Category: Forensic Watermarking, Video Cloud, Brightcove SDKs
+Status: Released
+Type: New Doc
+
+Title: Forensic Watermarking
+Description: In this topic, you will get a high-level overview of Brightcove's Forensic Watermarking feature for Zencoder.
+Link: https://zencoder.support.brightcove.com/encoding-guides/forensic-watermarking.html
+Category: Forensic Watermarking, Zencoder
+Status: Released
+Type: New Doc
+
+Title: Forensic Watermarking Settings
+Description: This topic provides information on settings for forensic watermarking.
+Link: https://zencoder.support.brightcove.com/encoding-settings/content-protection/encoding-settings-forensic-watermarking.html
+Category: Forensic Watermarking, Zencoder
+Status: Released
+Type: New Doc
+
+Title: Publishing a Cloud Playout Channel
+Description: In this topic you will learn how to make a Cloud Playout channel part of your Beacon app. (This version for Beacon LA - NOT RELEASED)
+Link: https://beacon-help.support.brightcove.com/cloud-playout/publish-channel-beacon.html
+Category: Beacon, Cloud Playout
+Status: Internal
+Type: New Doc
+
+Major updates:
+
+Title: Zencoder API Reference
+Description: Updated for forensic watermarking
+Link: https://zencoder.support.brightcove.com/references/reference.html
+Category: Forensic Watermarking, Zencoder
+Status: Released
+Type: Major Update
+
+Title: CMS API Reference
+Description: Updated for forensic watermarking
+Link: https://apis.support.brightcove.com/cms/references/reference.html#operation/GetVideos
+Category: Forensic Watermarking, Video Cloud, CMS API
+Status: Released
+Type: Major Update
+
+Title: Dynamic Ingest API Reference
+Description: Updated for forensic watermarking
+Link: https://apis.support.brightcove.com/dynamic-ingest/references/reference.html
+Category: Forensic Watermarking, Video Cloud, Dynamic Ingest API
+Status: Released
+Type: Major Update
+
+Title: Using MTR (my traceroute)
+Description: Updated for Live Streams
+Link: https://general.support.brightcove.com/developer/using-mtr-to-look-at-network-traffic.html
+Category: Video Cloud, Live, Troubleshooting
+Status: Released
+Type: Major Update
+
+Minor updates:
+
+Title: Brightcove Cloud Playout Channel Manager API Reference
+Description: updated some descriptions
+Link: https://apis.support.brightcove.com/cloud-playout-apis/references/reference-channels.html
+Category: Cloud Playout APIs
+Status: Released
+Type: Minor Update
+
+Title: Autoplay Considerations
+Description: added note that muted autoplay fails in some edge cases on Chrome - and that this is up to the browser, not something we can control
+Link: https://player.support.brightcove.com/playback/autoplay-considerations.html
+Category: Brightcove Player
+Status: Released
+Type: Minor Update
+
+Title: Brightcove Live API: Server-Side Ad Insertion (SSAI)
+Description: added note that SSAI will increase consumption of origin bandwidth and explained why
+Link: https://apis.support.brightcove.com/live-api/ssai/live-api-server-side-ad-insertion-ssai.html
+Category: Live, SSAI
+Status: Released
+Type: Minor Update
+
+Title: Overview: Digital Rights Management (DRM) in Video Cloud
+Description: added note that DRM playback requires TLS 1.2 with a link to instructions on how to enable it if is not (in some older browwers)
+Link: https://studio.support.brightcove.com/general/overview-digital-rights-management-drm-video-cloud.html#Summary_of_DRM_support
+Category: DRM, Content Protection
+Status: Released
+Type: Minor Update
+
+Title: Integrating Your CMS with Video Cloud
+Description: added notes on handling ingest profiles
+Link: https://apis.support.brightcove.com/general/integrating-your-cms-video-cloud.html
+Category: Video Cloud integrations
+Status: Released
+Type: Minor Update
+
+Title: Notifications for Dynamic Ingest
+Description: added section on firewalls
+Link: https://apis.support.brightcove.com/dynamic-ingest/general/notifications-dynamic-delivery-video-cloud.html#Firewalls
+Category: Dynamic Ingest API
+Status: Released
+Type: Minor Update
+
+Title: Protecting Videos with HLS Encryption
+Description: added note that if HLSe is disabled for an account, encryption will be removed from videos automatically, no re-transcoding required
+Link: https://studio.support.brightcove.com/general/protecting-videos-hls-encryption.html#limitations
+Category: HLSe, Content Protection
+Status: Released
+Type: Minor Update
+

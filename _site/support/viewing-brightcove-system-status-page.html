@@ -1,146 +1,160 @@
-﻿<!doctype html>
-<html lang="ja">
+<!doctype html>
+<html lang="en-us">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="このトピックでは、Brightcove のサービスおよびアプリケーションの更新に関する [Brightcove システムステータス] ページを表示します。">
+  <meta name="description" content="">
   
-  <title>Brightcove Systemのステータスページを表示する</title>
+  <title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">  
-  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&amp;display=swap">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
-  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
+  <!-- <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css"> -->
   <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
   <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
+  <link rel="stylesheet" href="/site-assets/css/site/styles.css">
   <link rel="stylesheet" href="/assets/css/local.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/381443caa8.js" crossorigin="anonymous"></script>
-  <script src="https://support.brightcove.com/site-assets/js/site/google-analytics.js"></script>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2728311-17"></script>
+<script translate="no">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2728311-17');
+</script>
   <script src="/assets/js/sajari-head.js"></script>
+	<script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body class="body">
-
-<header>
+ <header>
   <div class="div-header">
 
-      <img class="product-logo" src="/site-assets/images/site/product-logos/brightcove-black-on-white.svg" style="max-height: 100px;max-width: 232px;margin-bottom: 1rem;"/>
-<!-- GTranslate: https://gtranslate.io/ -->
-<select onchange="doGTranslate(this);"><option value="">言語の選択</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
+      <img class="product-logo" src="https://support.brightcove.com/site-assets/images/site/product-logos/brightcove-black-on-white.svg" alt="Brightcove">
+      <select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
 
-<script>
-/* <![CDATA[ */
-function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
-/* ]]> */
-</script>
+      <script translate="no">
+      /* <![CDATA[ */
+      function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+      /* ]]> */
+      </script>
+      
 
-
-
-    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><img src="https://support.brightcove.com/site-assets/images/site/support.png" alt="サポート"/> サポートへのお問い合わせ</a> <span style="vertical-align: top;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/"><img src="https://support.brightcove.com/site-assets/images/site/status.png" alt="システムステータス"/> システムステータス</a></span> <br/>
+    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><i data-feather="help-circle"></i> サポートに連絡する</a><span style="vertical-align: middle;margin-left:1em;margin-right:1em;">| </span><a href="https://status.brightcove.com/"><i data-feather="cloud"></i> システムステータス</a></span>
+    <br>
 
   </div>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb arr-right">
-      
-      <li class="breadcrumb-item"><a href="/">ホーム</a></li>
-      
-      
-      
-      <li class="breadcrumb-item"><a href="/support/">サポート</a></li>
-      
-      <li class="breadcrumb-item active" aria-current="page">Brightcove Systemのステータスページを表示する</li>
-    </ol>
+    
+    <li class="breadcrumb-item first-item"><a href="/">ホーム</a></li>
+     
+        <li class="breadcrumb-item"><a href="/support/">Support</a></li>
+        
+        <li class="breadcrumb-item active" aria-current="page"></li>
+       
   </nav>
-</header>
-<div class="container">
+</header> <div class="container">
     <div class="row">
-            <div class="col-sm-3 left-side-bar">
-        <select id="site_select" class="bcls-select" style="margin-right: 1rem;">
-          <option value="">Brightcove のその他のドキュメント</option>
-          
-            
-              <option value="https://support.brightcove.com">ドキュメントホーム</option>
-            
-          
-            
-              <option value="https://audience.support.brightcove.com">Brightcove Audience</option>
-            
-          
-            
-              <option value="https://beacon.support.brightcove.com">Brightcove ビーコン</option>
-            
-          
-            
-              <option value="https://campaign.support.brightcove.com">Brightcove キャンペーン</option>
-            
-          
-            
-              <option value="https://engage.support.brightcove.com">Brightcove Engage</option>
-            
-          
-            
-              <option value="https://live.support.brightcove.com">Brightcove ・ライブ</option>
-            
-          
-            
-              <option value="https://gallery.support.brightcove.com">Brightcove ギャラリー</option>
-            
-          
-            
-              <option value="https://ssai.support.brightcove.com">Brightcove SSAI</option>
-            
-          
-            
-              <option value="https://social.support.brightcove.com">Brightcove ソーシャル</option>
-            
-          
-            
-              <option value="https://studio.support.brightcove.com">Video Cloud Studio</option>
-            
-          
-            
-              <option value="https://player.support.brightcove.com">Brightcove のプレーヤー開発</option>
-            
-          
-            
-              <option value="https://apis.support.brightcove.com">Video CloudプラットフォームAPI</option>
-            
-          
-            
-              <option value="https://sdks.support.brightcove.com">ビデオクラウドデバイス SDK</option>
-            
-          
-            
-              <option value="https://integrations.support.brightcove.com">統合および CMS コネクタ</option>
-            
-          
-            
-              <option value="https://general.support.brightcove.com">ビデオクラウドの一般情報</option>
-            
-          
-            
-              <option value="https://zencoder.support.brightcove.com">Zencoder</option>
-            
-          
-        </select>
-
+      <div class="col-sm-3 left-side-bar">
+				<select id="site_select" class="bcls-select" style="margin-left: 1rem;">
+					<option value="">Brightcoveのその他のドキュメント</option>
+					 
+							<option value="https://support.brightcove.com">ドキュメンテーションホーム</option>
+						  
+							<option value="">-Video Cloud-</option>
+						  
+							<option value="https://studio.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloudスタジオ</option>
+						  
+							<option value="https://player.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveプレイヤー開発</option>
+						  
+							<option value="https://apis.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video CloudプラットフォームAPI</option>
+						  
+							<option value="https://sdks.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video CloudデバイスSDK</option>
+						  
+							<option value="https://integrations.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;統合とCMSコネクタ</option>
+						  
+							<option value="https://general.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloudの一般情報</option>
+						  
+							<option value="">-ビデオエッセンシャル-</option>
+						  
+							<option value="https://beacon.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveビーコン</option>
+						  
+							<option value="https://live.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveライブ</option>
+						  
+							<option value="https://zencoder.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp; Zencoder</option>
+						  
+							<option value="">-Video Cloudアドオン-</option>
+						  
+							<option value="https://campaign.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveキャンペーン</option>
+						  
+							<option value="https://engage.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveエンゲージ</option>
+						  
+							<option value="https://gallery.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveギャラリー</option>
+						  
+							<option value="https://studio.support.brightcove.com/social/index.html">&nbsp;&nbsp;&nbsp;&nbsp;Brightcoveソーシャル</option>
+						  
+							<option value="https://ssai.support.brightcove.com">&nbsp;&nbsp;&nbsp;&nbsp;BrightcoveSSAI</option>
+						 
+				</select>
         <nav class="sidenav" id="side_nav">
-          
-            
-            <h5><a href="/">ホーム</a></h5>
-            
-          
+           
+            <h5><a href="/index.html">ホーム</a></h5>
+              
+            <h5><a href="https://studio.support.brightcove.com/index.html">Video Cloudスタジオ</a></h5>
+              
+            <h5><a href="https://player.support.brightcove.com/index.html">Brightcove・プレイヤー</a></h5>
+              
+            <h5><a href="https://apis.support.brightcove.com/index.html">Video CloudプラットフォームAPI</a></h5>
+              
+            <h5><a href="https://sdks.support.brightcove.com/index.html">Video CloudデバイスSDK</a></h5>
+              
+              <h5 class="submenu-header"><a href="/training/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;トレーニング</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                 
+                    <li><a href="/training/online-training-courses.html">すべてのオンライントレーニングコース</a></li>
+                    
+                    <li><a href="/training/register-training.html">インストラクター主導トレーニングへの登録</a></li>
+                    
+                    <li><a href="/training/training-demand-introduction-video-cloud.html">トレーニング:Video Cloudの概要</a></li>
+                    
+                    <li><a href="/training/training-demand-introduction-video-cloud-analytics.html">トレーニング:Video Cloud分析の概要</a></li>
+                    
+                    <li><a href="/training/training-demand-video-cloud-basics.html">トレーニング:Video Cloudの基本</a></li>
+                    
+                    <li><a href="/training/video-cloud-studio-training-videos.html">Video Cloudスタジオトレーニングビデオ</a></li>
+                    
+                    <li><a href="/training/brightcove-university.html">Brightcove Universityトレーニングコース</a></li>
+                   
+              </ul>
+              
+              <h5 class="submenu-header"><a href="/support/index.html"><span style="color:#8E9093">+</span>&nbsp;&nbsp;サポート</a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                 
+                    <li><a href="/support/viewing-brightcove-system-status-page.html">Brightcoveのシステムステータスページの表示</a></li>
+                    
+                    <li><a href="/support/contact-sales.html">営業へのお問い合わせ</a></li>
+                    
+                    <li><a href="/support/opening-case-with-brightcove-support.html">サポートケースを開く</a></li>
+                    
+                    <li><a href="/support/reset-support-portal-password.html">サポートポータルのパスワードをリセットする</a></li>
+                   
+              </ul>
+             
       </nav>
     </div>
     <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
   <!-- bootstrap layout -->
-
-<p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="ナビゲーションメニュー"/></p>
+ <p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="Navigation Menu"></p>
 
 <!-- search bar -->
 <div id="nav-search-box" style="margin-top: 2rem;"></div>
@@ -151,87 +165,89 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
   <ul id="centered_in_page_toc" class="list-none"></ul>
 </details>
 <!-- open in new tab/window -->
-<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="新しいタブで開く" style="margin-top:4em;width: 1.5em;"/></a>
-
-
+<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="open in new tab" style="margin-top:4em;width: 1.5em;"></a>  ---
+title:Brightcove
+description: 'システムステータスページの表示このトピックでは、Brightcoveのサービスおよびアプリケーションの更新に関する Brightcove システムステータスページを表示します。'
+parent: Support —
 <!-- 
   This content appears on all sites!
   
   If you update in one place, you MUST update it in all!
  -->
 
- <h1>Brightcove Systemのステータスページを表示する</h1>
+ <h1></h1>
  <article class="bcls-article">
-  <summary>このトピックでは、Brightcove のサービスおよびアプリケーションの更新に関する [Brightcove システムステータス] ページを表示します。</summary>
+  <summary></summary>
   <section class="bcls-section">
-    <p>Brightcove は、すべての Brightcove サービスとアプリケーションのステータスを継続的に監視します。サービスに何らかの中断があると、システムステータスページに表示されます。本ページには、予定されているメンテナンス通知もすべて掲載されます。</p>
-    <p>[システムステータス] ページにアクセスするには、<a href="https://status.brightcove.com"> https://status.brightcove.com </a>にアクセスするか、ナビゲーションヘッダーから [サポート] アイコン ( <img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/question-icon.png"/> ) をクリックし、[ &nbsp;<strong>システムステータス</strong> ] をクリックします。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status.png"/></figure>
-    <p>投稿されたすべての通知には、以下の情報が含まれます。</p>
+    <p>Brightcoveは、すべてのBrightcoveのサービスとアプリケーションのステータスを継続的に監視します。サービスに何らかの中断があると、システムステータスページに表示されます。スケジュールされたメンテナンスの通知もすべてこのページに掲載されます。</p>
+    <p>システムステータスページにアクセスするには、<a href="https://status.brightcove.com"> https://status.brightcove.com</a>にアクセスするか、ナビゲーションヘッダーから [サポート] アイコン (<img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/question-icon.png" />)、&nbsp;<strong>システムステータス</strong>。</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status.png" /></figure>
+    <p>投稿されたすべての通知には、次の情報が含まれます。</p>
     <ul>
       <li>インシデントステータス
         <ul>
-          <li>運用可能 (緑)</li>
-          <li>通知 (青-システムは現在動作中ですが、遅延または断続的な停止の影響を受ける)</li>
+          <li>オペレーション (緑)</li>
+          <li>通知（青-システムは現在動作中ですが、遅延または断続的な停止の影響を受ける）</li>
           <li>部分的なサービス中断 (黄色)</li>
           <li>フルサービスの中断 (赤)</li>
         </ul>
       </li>
-      <li>コンポーネント － 影響を受けるサービスまたは領域</li>
-      <li>場所
+      <li>コンポーネント-サービスまたは影響を受ける領域</li>
+      <li>所在地
         <ul>
-          <li>アジア・太平洋</li>
-          <li>アメリカ</li>
-          <li>エメア</li>
+          <li>APAC</li>
+          <li>南北アメリカ</li>
+          <li>EMEA</li>
           <li>日本</li>
         </ul>
       </li>
-      <li>現在の状態とステータス。状態には以下があります。
+      <li>現在の状態とステータス。州には以下が含まれます。
         <ul>
-          <li>調査中-エンジニアが問題を調査中</li>
+          <li>調査中-エンジニアが問題を調査している</li>
           <li>特定-エンジニアが問題を特定し、修正を検討している</li>
-          <li>モニタリング-問題の解決とエンジニアリング監視により、すべてが正常であることを確認する</li>
-          <li>解決済み-問題が解決しました</li>
+          <li>監視-問題が解決され、すべてが正常であることを確認するためのエンジニアリングモニタリング</li>
+          <li>解決済み-問題が解決されました</li>
         </ul>
       </li>
     </ul>
-    <p>投稿されたメッセージはすべて英語で、使用時間は東部標準時 (GMT-5) です。</p>
+    <p>投稿されたメッセージはすべて英語で、使用時間は東部標準時（GMT-5）です。</p>
   </section>
   <section class="bcls-section">
-    <h2 id="history">システム状態の履歴を表示する</h2>
+    <h2 id="history">システムステータス履歴の表示</h2>
     <p>システムステータスの履歴を表示するには、ページ上部の[<strong>履歴</strong>]リンクをクリックします。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-history.png"/></figure>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-history.png" /></figure>
   </section>
   <section class="bcls-section">
-    <h2 id="subscribe">システム状態の変更を購読する</h2>
-    <p>サインアップして、システムステータスが変更されたときに通知を受け取ることができます。このセクションの構成は次のとおりです。</p>
+    <h2 id="subscribe">システムステータスの変更の購読</h2>
+    <p>サインアップして、システムステータスが変更されたときに通知を受け取ることができます。このセクションは、次のように構成されています。</p>
     <ul>
-      <li><a href="#email">メールを購読中</a></li>
-      <li><a href="#webhook">webhookを購読中</a></li>
-      <li><a href="#manage">サブスクリプションの管理</a></li>
+      <li><a href="#email">メールを購読する</a></li>
+      <li><a href="#webhook">Webhook を購読する</a></li>
+      <li><a href="#manage">サブスクリプションを管理する</a></li>
     </ul>
-    <h3 id="email">メールを購読中</h3>
-    <p>メールで通知を受信するには、[ <strong>購読</strong> ] ボタンをクリックし、メールアドレスを入力して [ <strong>購読</strong> ] をクリックします。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-subscribe.png"/></figure>
-    <h3 id="webhook">webhookを購読中</h3>
-    <p>ウェブフックは、HTTP POSTで作成された定義されたコールバックです。ステータスの更新がある場合に、コールバックが JSON オブジェクトをポストする URL を指定します。</p>
-    <p>システムステータスが変更されたときに通知を受けるようにサインアップするには、[ <strong>購読</strong> ] ボタンを選択します。次に、電子メールアドレスとともに JSON ペイロードを受信する URL を入力します。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="webhook 購読する" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-subscribe.png"/></figure>
-    <p>購読すると、次のようなサブスクリプションの確認が表示されます。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="ウェブフックのステータス" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-status.png"/></figure>
-    <p>システムステータスの変更が送信されると、Webhook アドレスは次のような JSON オブジェクトを受け取ります。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="webhook json" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-json.png"/></figure>
-    <h3 id="manage">サブスクリプションの管理</h3>
-    <p>登録すると、「購読の管理」ページへのリンクを記載した電子メールが送られてきます。このページで、お客様の購読について管理できます。通知の受信を希望するコンポーネント/製品/リージョンを選択できます。項目を選択し、[<strong>購読の保存</strong>]をクリックします。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-manage-sub.png"/></figure>
-    <p>購読を解除するには、[サブスクリプションの管理] ページの下部にある [ <strong>登録解除</strong> ] リンクをクリックします。</p>
+    <h3 id="email">メールを購読する</h3>
+    <p>電子メールで通知を受信するには、[ <strong>購読]</strong>ボタンをクリックし、メールアドレスを入力し、[ <strong>購読] をクリックします</strong>。</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-subscribe.png" /></figure>
+    <h3 id="webhook">Webhook を購読する</h3>
+    <p>Webhook は、HTTP POST で作成された定義されたコールバックです。ステータスが更新されたときにコールバックが JSON オブジェクトを投稿する URL を指定します。</p>
+    <p>システムステータスが変更されたときに通知を受け取るようにサインアップするには、[ <strong>SUBSCRIBE]</strong>ボタンを選択します。次に、メールアドレスとともに JSON ペイロードを受信する URL を入力します。</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="webhook subscribe" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-subscribe.png" /></figure>
+    <p>サブスクライブすると、次のようなサブスクリプションの確認が表示されます。</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="webhook status" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-status.png" /></figure>
+    <p>システムステータスの変更が送信されると、Webhook アドレスは次のような JSON オブジェクトを受け取る必要があります。</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="webhook json" src="https://general.support.brightcove.com/assets/images/support/system-status-webhook-json.png" /></figure>
+    <h3 id="manage">サブスクリプションを管理する</h3>
+    <p>購読すると、サブスクリプションを管理できる [サブスクリプションの管理] ページへのリンクが記載されたメールが届きます。通知の受信を希望するコンポーネント/製品/リージョンを選択できます。項目を選択し、[<strong>購読の保存</strong>]をクリックします。</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="https://general.support.brightcove.com/assets/images/support/system-status-manage-sub.png" /></figure>
+    <p>購読を解除するには、[サブスクリプションの管理] ページの下部にある [ <strong>登録解除]</strong>リンクをクリックします。</p>
+		<h3>Slack で通知を受け取る</h3>
+		<p>Slack には、ステータス更新の接続に使用できる独自の Webhook システムがあります。詳細については、<a href="https://api.slack.com/messaging/webhooks"> Slack のドキュメントを参照してください。</a></p>
   </section>
-</article>
-<!-- complete bootstrap layout -->
+</article> <!-- complete bootstrap layout -->
     </div>
     <div class="col-sm-2 right-side-bar">
       <nav class="right-side-nav" id="announcements">
-        <h6 class="toc">お知らせ</h6>
+        <h6 class="toc">アナウンス</h6>
         <ul id="announcement_list" class="list-none">
           
           <li></li>
@@ -243,11 +259,18 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 </div>
 
 <hr>
-<footer class="bcls-footer" role="contentinfo">  <div class="row">
+<div class="last-updated">
+  ページの最終更新日23 Mar 2021
+</div>
+
+
+ <footer class="bcls-footer" role="contentinfo">
+  <div class="row">
     <div class="region region-footer-top-center col-md-12">
       <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
+        <img src="https://support.brightcove.com/site-assets/images/site/SVG/COVE004_Brightcove_Logo_093020_RGB_KO.svg" class="bc-footer-logo" alt="Brightcove">
 
-        <h2>Brightcove サポート</h2>
+        <h2>Brightcoveのサポート</h2>
 
         <ul class="menu">
           <li>
@@ -274,7 +297,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
             <a href="https://studio.support.brightcove.com/training/register-training.html">コースに登録する</a>
           </li>
           <li>
-            <a href="https://university.brightcove.com/">Brightcove University</a>
+            <a href="https://university.brightcove.com/">Brightcove大学</a>
           </li>
         </ul>
 
@@ -300,12 +323,12 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
         <table>
           <tr>
             <td>
-              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove Inc. All rights reserved.</div>
+              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove株式会社すべての権利を保有しています。</div>
             </td>
             <td><a href="https://www.brightcove.com/en/legal/privacy">プライバシー</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">利用規約</a></td>
             <td>
               <div class="gf-links-cols footer-menu">
-                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.5rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i></a>
+                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin" style="margin-right: 1rem;"><i data-feather="linkedin" style="color:#8E9093;height: 1.25rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter" style="margin-right: 1rem;"><i data-feather="twitter" style="color:#8E9093;height: 1.25rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i data-feather="facebook" style="color:#8E9093;height: 1.25rem;"></i></a>
                 </div>
               </div>
             </td>
@@ -315,30 +338,13 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     </div>
   </div>
 </footer>
-<div id="talla_wrapper">
-  <p style="text-align: right;position: relative;"><button style="background:rgb(7, 9, 140);color:Snow;padding:.3rem;position:fixed;right:0;bottom:1em;z-index:9999999" onclick="javascript:displayChat()">質問ですか? </button> </p>
-  <div id="talla_chat">
-</div>
-</div>
+
 <script>
       
-  var searchBox = sajari.init({
-    mode: "search-box",
-    project: "1588255093746585379", // Set this to your project.
-    collection: "brightcove-documenation", // Set this to your collection.
-    instantPipeline: "autocomplete", // Pipeline used as you type
-    inputPlaceholder: "Search", // Input element placeholder
-    maxSuggestions: 5, // Maximum number of suggestions to show
-    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
-  });
-  
-    searchBox("sub", "pipeline.search-sent", function (_, query) {
-      window.location = "/search.html?q=" + encodeURIComponent(query.q);
-    });
+  var searchBox = sajari.init ( { mode: "search-box", project: "1588255093746585379", // Set this to your project. collection: "brightcove-documenation", // Set this to your collection. instantPipeline: "autocomplete", // Pipeline used as you type inputPlaceholder: "Search", // Input element placeholder maxSuggestions: 5, // Maximum number of suggestions to show attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to } ); SearchBox (「サブ」,「pipeline.search-sent」, 関数 (_, クエリ) { window.location = "/search.html?q=" + encodeURIComponent(query.q); } );
   
 
-</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+</script>   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
@@ -347,17 +353,22 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
   <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
   
   <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
   <script src="/assets/js/sites_nav.js"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
   <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/sajari-reindex.js"></script>
   <script src="/assets/js/feedback.js"></script>
   
   <script src="/assets/js/sajari-search-foot.js"></script>
   
+	<script translate="no">
+		feather.replace()
+	</script>
   <!-- <script src="/assets/js/sajari-index.js"></script> -->
-  <style>
+  <style translate="no">
     a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
       background-color: lightblue;
     }
@@ -386,4 +397,4 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 </body>
 
-</html>
+</html> 
