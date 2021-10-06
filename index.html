@@ -150,6 +150,23 @@ layout: home-page
     </section>
   </section>
 </article>
-<script>
-  var BCLS_HOMEPage =（関数（ウィンドウ、ドキュメント）{ var product_logo = document.querySelector('.product-logo'); if (window.innerWidth &lt; 1000) { product_logo.setAttribute('src', '/site-assets/images/site/product-logos/b-white-on-black.svg'); product_logo.setAttribute('style', 'max-height:30px;margin-bottom:1rem;') } window.addeventListener（'resize'、関数（）{ if (window.innerWidth &lt; 1000) { product_logo.setAttribute('src', '/site-assets/images/site/product-logos/b-white-on-black.svg'); product_logo.setAttribute('style', 'max-height:30px;margin-bottom:1rem;') } else { product_logo.setAttribute('src', '/site-assets/images/site/product-logos/brightcove-black-on-white.svg'); } }）;}）（ウィンドウ、ドキュメント）;
+<script translate="no">
+  var BCLS_homepage = (function (window, document) {
+    var product_logo = document.querySelector('.product-logo');
+
+    if (window.innerWidth < 1000) {
+      product_logo.setAttribute('src', '/site-assets/images/site/product-logos/b-white-on-black.svg');
+      product_logo.setAttribute('style', 'max-height:30px;margin-bottom:1rem;')
+    }
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth < 1000) {
+        product_logo.setAttribute('src', '/site-assets/images/site/product-logos/b-white-on-black.svg');
+        product_logo.setAttribute('style', 'max-height:30px;margin-bottom:1rem;')
+      } else {
+        product_logo.setAttribute('src', '/site-assets/images/site/product-logos/brightcove-black-on-white.svg');
+      }
+
+    });
+  })(window, document);
 </script>
