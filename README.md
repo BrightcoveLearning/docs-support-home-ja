@@ -1,1 +1,0 @@
-# brightcove docs-support-home
