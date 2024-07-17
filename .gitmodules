@@ -13,3 +13,24 @@
 [submodule "assets/images/s-feather-img"]
 	path = assets/images/s-feather-img
 	url = https://github.com/BrightcoveLearning/s-feather-img
+[submodule "_includes/s-template-page-includes"]
+	path = _includes/s-template-page-includes
+	url = https://github.com/BrightcoveLearning/s-template-page-includes
+[submodule "assets/images/s-site-assets-template-stylesheets"]
+	path = assets/images/s-site-assets-template-stylesheets
+	url = https://github.com/BrightcoveLearning/s-site-assets-template-stylesheets
+[submodule "assets/s-site-assets-template-stylesheets"]
+	path = assets/s-site-assets-template-stylesheets
+	url = https://github.com/BrightcoveLearning/s-site-assets-template-stylesheets
+[submodule "assets/s-site-assets-favicons"]
+	path = assets/s-site-assets-favicons
+	url = https://github.com/BrightcoveLearning/s-site-assets-favicons
+[submodule "assets/s-site-assets-stylesheets"]
+	path = assets/s-site-assets-stylesheets
+	url = https://github.com/BrightcoveLearning/s-site-assets-stylesheets
+[submodule "assets/s-site-assets-scripts"]
+	path = assets/s-site-assets-scripts
+	url = https://github.com/BrightcoveLearning/s-site-assets-scripts
+[submodule "assets/s-site-assets-images"]
+	path = assets/s-site-assets-images
+	url = https://github.com/BrightcoveLearning/s-site-assets-images

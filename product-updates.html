@@ -1,0 +1,59 @@
+---
+title: Product Release Notes
+description: Below are this quarter's product updates.
+parent: home
+---
+<style>
+  h1,
+  h2 {
+    color: #4EA9D1;
+  }
+
+  section>h2:first-of-type {
+    color: #F76531;
+    font-weight: 900;
+    font-size: 2.8rem;
+  }
+</style>
+<h1>{{ page.title }}</h1>
+<article class="bcls-article">
+  <summary>{{ page.description }}</summary>
+  <p><a href="/product-updates-index.html">Index of all product release notes</a></p>
+  <p><a href="/doc-updates.html">Also see Recent Learning Resource Updates</a></p>
+  <!-- <p><a href="/doc-updates-index.html">Index of all product updates</a></p> -->
+  <aside class="bcls-aside bcls-aside--tip language-editable">Tips: 
+    <ul>
+      <li>If you would like be sent an email whenever this page changes, please see the <a href="/distill-setup.html">Setup Automatic Email on Product Updates</a> document.</li>
+    </ul>
+  </aside>
+  {% for product in site.data.s-site-assets-data.products %}
+    <section class="bcls-section">
+      <h2 id="{{ product | replace: " ", "_" }}">{{ product }}</h2>
+      {% for item in site.data.s-site-assets-data.doc-updates %}
+        {% for type in item.types %}
+          {% for doc in type.docs %}
+            {% if doc.Product == product %}
+              {% if doc.Product_Update == 'true' %}
+                {% if doc.Status == 'Released' %}
+                  <h3 id="{{ doc.Feature  | replace: " ", " _" }}"><strong>Feature:</strong> {{ doc.Feature }}</h3>
+                  <p id="{{ doc.Product_area }}"><strong>Product Area:</strong> {{ doc.Product_area}}</p>
+                  <p id="{{ item.date | replace: " -", "_" }}"><strong>Date:</strong> {{ item.date }}</p>
+                  <p><strong>Description:</strong> {{ doc.Description }}</p>
+                  {% if type.type == 'New Brightcove Academy Courses' %}
+                    <p><strong><a href="{{ doc.Customer_Link }}">Go to Course</a></strong></p>
+                  {% else %}
+                    {% if type.type == 'New Brightcove Academy Courses' %}
+                      <p><strong><a href="{{ doc.Customer_Link }}">Go to Course</a></strong></p>
+                    {% else %}
+                      <p><strong><a href="{{ doc.Link }}">Go to Documentation</a></strong></p>
+                    {% endif %}
+                  {% endif %}
+                  <hr>
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
+    </section>
+  {% endfor %}

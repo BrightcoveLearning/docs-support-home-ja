@@ -20,6 +20,11 @@
   },
 
   {
+      "newURL": "https://ja.support.brightcove.com/doc-updates.html",
+      "oldURL": "/doc-updates"
+  },
+
+  {
       "newURL": "https://ja.support.brightcove.com/icons.html",
       "oldURL": "/icons"
   },
@@ -30,7 +35,7 @@
   },
 
   {
-      "newURL": "https://ja.support.brightcove.com/training/",
+      "newURL": "https://ja.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
@@ -40,7 +45,7 @@
   },
 
   {
-      "newURL": "https://ja.support.brightcove.com/support/",
+      "newURL": "https://ja.support.brightcove.com/training/",
       "oldURL": "/index"
   },
 
@@ -57,6 +62,11 @@
   {
       "newURL": "https://ja.support.brightcove.com/overview-cms-api.html",
       "oldURL": "/overview-cms-api"
+  },
+
+  {
+      "newURL": "https://ja.support.brightcove.com/product-updates.html",
+      "oldURL": "/product-updates"
   },
 
   {
