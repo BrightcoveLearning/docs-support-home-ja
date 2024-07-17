@@ -1,0 +1,17 @@
+---
+title: iFrame テスト
+parent: Home
+layout: iframe
+---
+ <h1>{{ page.title }}</h1>
+
+<p>下のフィールドに完全なURLを貼り付けて、そのページをフレームにロードします。</p>
+<p><input type="text" id="src_address" size="60"></p>
+<p><button id="add_src">このページをフレームに入れます</button></p>
+
+<div style="position: relative;">
+  <iframe id="doc_frame" src="https://studio.support.brightcove.com/basics/video-cloud-basics-uploading-videos.html" style="position: fixed;right: 30px; top: 150px;height: 80%; width: 30%;"></iframe>
+</div>
+<script>
+  var src_address = document.getElementByID ('src_address')、add_src = document.getElementByID ('add_src')、doc_frame = document.getElementByID ('doc_frame')、side_nav = document.getElementByID ('side_nav'); add_src.addEventListener ('クリック'、関数 () { doc_frame.setAttribute('src', src_address.value); } ); side_nav.setAttribute ('スタイル', '表示:なし'); 関数 removeFeedbackify () { var t, feedbackify = document.getElementById('feedbackify'); console.log('feedbackify', feedbackify); if (feedbackify) { var feedbackify_parent = feedbackify.parentNode; console.log('feedbackify_parent', feedbackify_parent); feedbackify_parent.removeChild(feedbackify); }他{ console.log('retry'); t = window.setTimeout(removeFeedbackify, 2000); } } removeFeedbackify ();
+</script>
