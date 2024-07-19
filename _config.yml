@@ -21,12 +21,11 @@
 title: Brightcove Documentation Home
 email: training@brightcove.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Get in front of your audiences wherever they are with one easy interface. With Brightcove Social you can quickly publish your videos to Facebook, Twitter, and YouTube from a single location, edit your videos right in the platform, and consolidate your analytics to see your true ROI in one comprehensive dashboard.
+ 1 つの簡単なインターフェースで、視聴者がどこにいても視聴者にアプローチできます。Brightcove Social を使用すると、1 つの場所から Facebook、Twitter、YouTube に動画をすばやく公開し、プラットフォーム内で動画を編集し、分析を統合して 1 つの包括的なダッシュボードで実際の ROI を確認できます。
 # baseurl: "" # the subpath of your site, e.g. /blog
 site_url: "https://ja.support.brightcove.com"
 site_domain: "ja.support.brightcove.com"
 language: ja
-
 
 # Build settings
 # theme: minima
